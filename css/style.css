@@ -27,6 +27,10 @@ a:visited {
     color: inherit;
 }
 
+nav:hover {
+
+}
+
 /* navigation */
 
 nav {
@@ -40,6 +44,7 @@ nav {
     font-size: 22px;
     border: solid 1px #FA5A5A;
     background-color: white;
+    
 
 }
 
@@ -185,6 +190,21 @@ li {
     text-align: center;
     visibility: hidden;
 }
+
+.popup {
+    width: 400px;
+}
+
+nav,
+.hero,
+.herotext,
+.social,
+.footer,
+.feature:hover {
+    cursor: pointer;
+}
+
+
 
 .expandContent1,
 .expandContent2,
