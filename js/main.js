@@ -34,97 +34,96 @@ function expandContent1() {
 function expandContent2() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content2");
+    var x = document.getElementById("popup2");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus2");
+    var y = document.getElementById("feature2");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent2");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+    
 
 }
 
 function expandContent3() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content3");
+    var x = document.getElementById("popup3");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus3");
+    var y = document.getElementById("feature3");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent3");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+  
 
 }
 
 function expandContent4() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content4");
+    var x = document.getElementById("popup4");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus4");
+    var y = document.getElementById("feature4");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent4");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+
 
 }
 
 function expandContent5() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content5");
+    var x = document.getElementById("popup5");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus5");
+    var y = document.getElementById("feature5");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent5");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+  
 
 }
 
 function expandContent6() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content6");
+    var x = document.getElementById("popup6");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus6");
+    var y = document.getElementById("feature6");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent6");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+
 
 }
 
 function expandContent7() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content7");
+    var x = document.getElementById("popup7");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus7");
+    var y = document.getElementById("feature7");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent7");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
 
 }
 
 function expandContent8() {
 
     //SET X TO BE OUR #menu ELEMENT
-    var x = document.getElementById("content8");
+    var x = document.getElementById("popup8");
     //SET Y TO BE OUR #navButton ELEMENT
-    var y = document.getElementById("menuplus8");
+    var y = document.getElementById("feature8");
 
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("expandContent8");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-minus");
+
 
 }

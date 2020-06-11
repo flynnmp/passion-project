@@ -93,6 +93,19 @@ li {
     padding-bottom: 30px;
 }
 
+#feature2 {
+    margin-top: -600px;
+    padding-left: 660px;
+    padding-bottom: 280px;
+
+}
+
+.herotext {
+    width: 700px;
+}
+
+#feature3 {}
+
 .hero {
     width: 1330px;
 }
@@ -122,44 +135,64 @@ li {
 }
 
 #popups {
-    margin-top: -3230px;
+    margin-top: -3130px;
 }
 
 #popup1 {
     padding-left: 500px;
     position: fixed;
+    visibility: hidden;
 }
 
 #popup2 {
-    padding-top: 340px;
+    padding-top: 330px;
     padding-left: 900px;
+    visibility: hidden;
 }
 
 #popup3 {
+    margin-top: -40px;
     padding-left: 300px;
+    padding-bottom: 45px;
+    visibility: hidden;
 }
 
 #popup4 {
     padding-top: 240px;
     padding-left: 900px;
+    visibility: hidden;
 }
 
 #popup5 {
-    padding-left: 200px;
+    padding-left:200px;
+    visibility: hidden;
 }
 
 #popup6 {
     padding-top: 400px;
     text-align: center;
+    visibility: hidden;
 }
 
 #popup7 {
-    padding-top: 160px;
+    padding-top: 100px;
     padding-left: 600px;
+    visibility: hidden;
 }
 
 #popup8 {
     padding-top: 200px;
     text-align: center;
+    visibility: hidden;
 }
 
+.expandContent1,
+.expandContent2,
+.expandContent3,
+.expandContent4,
+.expandContent5,
+.expandContent6,
+.expandContent7,
+.expandContent8 {
+    visibility: visible !important;
+}
