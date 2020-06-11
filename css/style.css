@@ -102,11 +102,21 @@ main {
     justify-content: space-between;
     width: 1330px;
     margin: auto;
+    padding-bottom: 5px;
    grid-template-columns: 1fr 1fr;
 
 }
 
 .feature {
     width: 660px;
+}
+
+#section4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    width: 100%;
 }
 
