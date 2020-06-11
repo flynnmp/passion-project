@@ -27,6 +27,8 @@ a:visited {
     color: inherit;
 }
 
+/* navigation */
+
 nav {
     height: 125px;
     margin: 0;
@@ -37,6 +39,7 @@ nav {
     font-weight: 700;
     font-size: 22px;   
     border: solid 1px #FA5A5A;
+    background-color: white;
     
 }
 
@@ -73,6 +76,37 @@ ul {
 }
 
 li{
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+/* main content */
+
+
+main {
+   margin-top: 125px;
+   text-align: center;
+}
+
+#section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+.hero {
+    width: 1330px;
+}
+
+#section2, #section3 {
+    display: flex;
+    justify-content: space-between;
+    width: 1330px;
+    margin: auto;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.feature {
+    width: 660px;
+}
+
