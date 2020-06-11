@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 100%;
+    color: #FA5A5A;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* links */
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    height: 125px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 22px;   
+    border: solid 1px #FA5A5A;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+#navlogo {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.logo {
+    width: 220px;
+}
+
+#navmenu {
+    list-style: none;
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+}
+
+#navicons {
+    text-align: right;
+    margin-top: -50px;
+    padding-right: 70px;
+    
+}
+
+.icons {
+    width: 140px;
+
+}
+
+li{
+    padding-left: 38px;
+    padding-right: 38px;
+}
