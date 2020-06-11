@@ -37,10 +37,10 @@ nav {
     top: 0;
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 700;
-    font-size: 22px;   
+    font-size: 22px;
     border: solid 1px #FA5A5A;
     background-color: white;
-    
+
 }
 
 ul {
@@ -67,7 +67,7 @@ ul {
     text-align: right;
     margin-top: -50px;
     padding-right: 70px;
-    
+
 }
 
 .icons {
@@ -75,7 +75,7 @@ ul {
 
 }
 
-li{
+li {
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -83,27 +83,28 @@ li{
 /* main content */
 
 
-main {
-   margin-top: 125px;
-   text-align: center;
+#content {
+    margin-top: 125px;
+    text-align: center;
 }
 
 #section1 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-    
+
 .hero {
     width: 1330px;
 }
 
-#section2, #section3 {
+#section2,
+#section3 {
     display: flex;
     justify-content: space-between;
     width: 1330px;
     margin: auto;
     padding-bottom: 5px;
-   grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
 }
 
@@ -118,5 +119,47 @@ main {
 
 .footer {
     width: 100%;
+}
+
+#popups {
+    margin-top: -3230px;
+}
+
+#popup1 {
+    padding-left: 500px;
+    position: fixed;
+}
+
+#popup2 {
+    padding-top: 340px;
+    padding-left: 900px;
+}
+
+#popup3 {
+    padding-left: 300px;
+}
+
+#popup4 {
+    padding-top: 240px;
+    padding-left: 900px;
+}
+
+#popup5 {
+    padding-left: 200px;
+}
+
+#popup6 {
+    padding-top: 400px;
+    text-align: center;
+}
+
+#popup7 {
+    padding-top: 160px;
+    padding-left: 600px;
+}
+
+#popup8 {
+    padding-top: 200px;
+    text-align: center;
 }
 
